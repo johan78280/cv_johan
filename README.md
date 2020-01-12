@@ -16,3 +16,5 @@ Faire un portfolio CV, avec les fonctionnalités suivantes :
 ## Ressources
 
 - https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/
+- https://www.pierre-giraud.com/javascript-apprendre-coder-cours/introduction/
+- https://javascript.info/
