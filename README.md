@@ -12,3 +12,7 @@ Faire un portfolio CV, avec les fonctionnalités suivantes :
 - [ ] Rendre l'interface responsive
 - [ ] Rendre l'interface UI plus attractive
 - [ ] Incorporer un diaporama des images
+
+## Ressources
+
+- https://www.pierre-giraud.com/php-mysql-apprendre-coder-cours/
