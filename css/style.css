@@ -1,103 +1,134 @@
-
 @font-face {
-    font-family: "Impact"; 	src: url('../police/impact.ttf'); 
+  font-family: "Impact";
+  src: url("../police/impact.ttf");
 }
-.bcr-green{
-    background-color: rgb(35, 189, 24);
+
+.bcr-green {
+  background-color: rgb(35, 189, 24);
 }
-.bcr-blue{background-color:rgb(41, 126, 255);}
-
-#navbar{width: 100%;
-        height: 70px;}
-
-.row{display: flex;}
-
-.column{display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;}
-
-.nowrap{flex-wrap: nowrap;}
-
-.wrap{flex-wrap: wrap;}
-
-ul li{
-    font-family:Impact;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    padding: 0.8em;
-    font-size: 25px;
-    float: right;
-    margin-right: 100px;
-    text-shadow: 0 0 10px black;    
+.bcr-blue {
+  background-color: rgb(41, 126, 255);
 }
-body{font-family:Impact;}
 
-#path{justify-content: center;}
-
-h1 {color: #3a3a3a;
-    margin-left: 80px;
-    font-size: 50px;
-    margin-bottom: 80px;}
-
-p { color: #696969;
-    margin-left: 80px;
-    font-size: 30px;}
-
-a{ text-decoration: none;
-color: white;}
-
-#path{ width: 70%;
-    height: auto;}
-
-#profil{ margin-top: 300px;}
-
-#comp{ margin-top: 250px;}
-
-#portfolio{margin-top: 300px;}
-.bcimage{
-    display: flex;
-    background-color: wheat;
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
+#navbar {
+  width: 100%;
+  height: 70px;
 }
-label{
-    font-size: 16px;
-    color: black;
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+ul li {
+  font-family: Impact;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 0.8em;
+  font-size: 25px;
+  float: right;
+  margin-right: 100px;
+  text-shadow: 0 0 10px black;
+}
+body {
+  font-family: Impact;
+}
+
+h1 {
+  color: #3a3a3a;
+  margin-left: 80px;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+p {
+  color: #696969;
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#path {
+  text-align: center;
+}
+
+#path img {
+  width: 70%;
+}
+
+#profil {
+  margin-top: 300px;
+}
+
+#comp {
+  margin-top: 250px;
+}
+
+#portfolio {
+  margin-top: 300px;
+}
+.bcimage {
+  display: flex;
+  background-color: wheat;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+label {
+  font-size: 16px;
+  color: black;
 }
 form {
-    /* Uniquement centrer le formulaire sur la page */
-    margin: 0 auto;
-    width: 600px;
-    /* Encadré pour voir les limites du formulaire */
-    padding: 1em;
-    border: 5px solid rgb(35, 189, 24);
-    border-radius: 1em;
-  }
-  form div + div {
-    margin-top: 1em;
-  }
-  label {
-    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-  }
-  input, textarea {
-    /* Pour harmoniser le look & feel des bordures des champs texte */
-    border: 1px solid #999;
-  }
-  textarea {
-    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
-    vertical-align: top;
-  
-    /* Pour donner assez de place pour écrire du texte */
-    height: 8em;
-  }
-  .button {
-    /* Pour placer le bouton à la même position que les champs texte */
-    padding-left: 300px; /* même taille que les étiquettes */
-  }
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 600px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 5px solid rgb(35, 189, 24);
+  border-radius: 1em;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+input,
+textarea {
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 8em;
+}
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 300px; /* même taille que les étiquettes */
+}
