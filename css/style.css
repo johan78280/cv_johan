@@ -20,6 +20,8 @@ a {
 }
 .bcr-blue {
   background-color: rgb(41, 126, 255);
+  width: 80%;
+  height: 500px;
 }
 /*------------------------------------*/
 
