@@ -14,14 +14,14 @@ body {
 }
 a {
   text-decoration: none;
-  color: white; /*-----------------------------------*/
-
-  background-color: rgb(35, 189, 24);
+  color: white;
 }
 .bcr-blue {
   background-color: rgb(41, 126, 255);
   width: 80%;
   height: 500px;
+  border: 5px solid #3a3a3a;
+  border-radius: 20px;
 }
 /*------------------------------------*/
 
@@ -47,13 +47,13 @@ a {
 #navbar {
   width: 100%;
   height: 70px;
+  background-color: rgb(35, 189, 24);
+
 }
 ul li {
   font-family: Impact;
-  list-style: none;
   display: flex;
   flex-direction: row;
-  color: white;
   padding: 0.8em;
   font-size: 25px;
   float: right;
@@ -145,4 +145,15 @@ textarea {
 }
 #formulaire {
   margin-bottom: 100px;
+}
+#contact{
+  justify-content: center;
+  height: 600px ;
+}
+#contact h1{
+text-align: center;
+color:black;}
+
+#contact p{
+  color: black;
 }
