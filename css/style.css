@@ -1,43 +1,43 @@
 * {margin: 0;
   padding: 0;}
+  body{
+    background-color: #B9D5D8;
+  }
 /*------------------------------------*/
 
 /*  POLICES */
-@font-face {
-  font-family: "Impact";
-  src: url("../police/impact.ttf");
-}
 h1 {
-  font-family: Impact;
+  font-family:"Arial", Helvetica, sans-serif;
+  font-weight: bold;
 }
 a {
   text-decoration: none;
   color: white;
 }
+ul li:hover{
+background-color: #8C704D;}
 .base_text{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 /*------------------------------------*/
 
 /* Background*/
 .bcr-blue {
-  background-color: rgb(41, 126, 255);
-  width: 80%;
+  background-color: #366873;
+  width: 100%;
   height: 200px;
-  border: 25px solid #3a3a3a;
+  border: 5px solid #2C4859;
   border-radius: 20px;
-  margin-top: 30px;
-  padding-top: 30px;
-  margin-bottom: 50px;
-  margin-left: 36px;
+  padding-top: 20px;
+  margin-top: -5px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .bcimage {
-  display: flex;
-  flex-direction: row;
-  background-color: wheat;
+  background-color: #2C4859;
   width: 350px;
   height: 350px;
-  margin-left: 50px;
+  margin: 50px;  
 }
 /*------------------------------------*/
 
@@ -62,19 +62,25 @@ a {
 /*HEADER*/
 #navbar {
   width: 100%;
-  height: 70px;
-  background-color: rgb(35, 189, 24);
-
+  height: 55px;
+  background-color: #2C4859;
+  position: fixed;
+}
+#navbar ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 ul li {
-  font-family: Impact;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   padding: 0.8em;
-  font-size: 25px;
+  font-size: 20px;
   float: right;
-  margin-right: 240px;
   text-shadow: 0 0 10px black;
+
 }
 h1 {
   color: #3a3a3a;
@@ -96,28 +102,15 @@ p {
 /*-----------------------------------*/
 
 /*MAIN*/
-#conteneur{
-  margin-top: 50px;
-  background-color: #BCF5A9;
-  height: 300px;
-  width: 1100px;
-  border:8PX solid grey;
-  border-radius: 20px;
-  margin-left: 420px;
-  margin-right: 50px;
-}
-#profil {
-margin-top: 30px;  
-}
-
 #comp {
-  width: 1000px;
+  width: auto;
   margin-top: 40px;
-  background-color: #FBF8EF;
+  background-color: #F2E3B3;
   padding-top: 50px;
   padding-bottom: 80px;
-  border: 15px solid black;
-  margin-left: 460px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 5px solid #366873;
   border-radius: 20px;
 }
 #logos{
@@ -131,14 +124,35 @@ margin-top: 30px;
   width: 100%;
   height: auto;
 }
+#conteneur{
+  margin-top: -5px;
+  background-color: #F2E3B3;
+  height: 300px;
+  width: auto;
+  border:5PX solid #366873;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#profil {
+margin-top: 30px;
+margin-left: -35px;  
+}
+/*-----PORTFOLIO-----*/
 #txt_port {
   margin-top: 40px;
   text-align: center;
 }
 #portfolio {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   justify-content: center;
+  width: 100%;
+  }
+/*------BAS-----*/
+#bas{
+  width: auto;
+  height: auto;
+  align-items: center;
 }
 
 label {
@@ -146,11 +160,10 @@ label {
   color: black;
 }
 form {
-  /* Uniquement centrer le fmarg50px
-  /* Encadré pour voir les limites du formulaire */
   padding: 1em;
-  border: 5px solid rgb(35, 189, 24);
+  border: 5px solid #2C4859;
   border-radius: 1em;
+  background-color: #F2E3B3;
 }
 form div + div {
   margin-top: 1em;
@@ -159,9 +172,7 @@ label {
   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
   display: inline-block;
   width: 150px;
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+  text-align: center;align-items: center;}
 button{
   margin-left: 300px;
 }
@@ -170,15 +181,13 @@ button{
   margin-left: 5px;
 }
 #formulaire {
-  margin-bottom: 10px;
-  margin-left: 650px;
   width: 610px;}
 /*-----------------------------------*/
 
 /*CONTACT*/
 #contact{
-  justify-content: center;
-  height: 350px ;
+  width: 100%;
+  height: auto;
   }
 #contact h1{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -189,6 +198,6 @@ text-decoration: none;}
 
 #contact p{
   color: white;
-  text-align: center;
   padding-top: 5px;
+  text-align: center;
 }
