@@ -32,17 +32,20 @@
       </section>
     </header>
     <main>
-      <div id="profil">
-        <h1>MON PROFIL</h1>
-        <p>
-          Développeur Web/Graphiste/Reprographe<br />
-          Issue des études d'Arts Graphique,<br />j'effectue ma reconversion
-          dans le domaine du Web pour complémenter mes compétences.<br />
-          Je dispose donc de l'ensemble des compétences en terme de chaîne
-          graphique,<br />ainsi qu'une partie de celles nécessaires à la création de sites
-          internet.
-        </p>
-      </div>
+      <section id="conteneur" class="container">
+        <div id="profil" class="column base_text">
+          <h1>MON PROFIL</h1>
+          <p>
+            Développeur Web/Graphiste/Reprographe<br /></p>
+            <p>Issue des études d'Arts Graphique,<br /></p>
+            <p>j'effectue ma reconversion dans le domaine du Web pour complémenter mes compétences.<br /></p>
+            <p>Je dispose donc de l'ensemble des compétences en terme de chaîne
+            graphique,<br /></p>
+            <p>ainsi qu'une partie de celles nécessaires à la création de sites
+            internet.</p>
+          </p>
+        </div>
+      </section>
       <h1 id="txt_port">PORTFOLIO</h1>
       <section id="portfolio" class="container row">
         <div class="bcimage"></div>
@@ -65,11 +68,11 @@
             placeholder="Ex : Johan"
           />
         </div>
-        <div>
+        <div class="container row">
           <label for="message">Votre Message </label>
           <textarea name="message" id="message" rows="10" cols="50"></textarea>
         </div>
-        <div class="button">
+        <div class="button container">
           <button type="submit">Envoyer le message</button>
         </div>
       </form>
