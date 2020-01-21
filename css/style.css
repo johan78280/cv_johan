@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+* {margin: 0;
+  padding: 0;}
 /*------------------------------------*/
 
 /*  POLICES */
@@ -16,12 +14,26 @@ a {
   text-decoration: none;
   color: white;
 }
+/*------------------------------------*/
+
+/* Background*/
 .bcr-blue {
   background-color: rgb(41, 126, 255);
   width: 80%;
-  height: 500px;
-  border: 5px solid #3a3a3a;
+  height: 400px;
+  border: 25px solid #3a3a3a;
   border-radius: 20px;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.bcimage {
+  display: flex;
+  flex-direction: row;
+  background-color: wheat;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
 }
 /*------------------------------------*/
 
@@ -85,6 +97,20 @@ p {
 }
 #comp {
   margin-top: 250px;
+  background-color: #FBF8EF;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  border: 20px solid black;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+#logos{
+  padding-top: 120px;
+  width: 300px;
+  height: 300px;}
+#logos img{
+  width: 100%;
+  height: auto;
 }
 #txt_port {
   margin-top: 300px;
@@ -94,17 +120,10 @@ p {
   margin-bottom: 200px;
   justify-content: center;
 }
-.bcimage {
-  display: flex;
-  flex-direction: row;
-  background-color: wheat;
-  width: 500px;
-  height: 500px;
-  margin-left: 50px;
-}
 /*-----------------------------------*/
 
 /*FOOTER*/
+/*FORMULAIRE*/
 label {
   font-size: 16px;
   color: black;
@@ -146,14 +165,22 @@ textarea {
 #formulaire {
   margin-bottom: 100px;
 }
+/*-----------------------------------*/
+
+/*CONTACT*/
 #contact{
   justify-content: center;
   height: 600px ;
-}
+  }
 #contact h1{
 text-align: center;
 color:black;}
 
 #contact p{
   color: black;
+  text-align: center;
+  padding-top: 30px;
+}
+#contact{
+  background-color: black;
 }
