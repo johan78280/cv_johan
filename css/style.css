@@ -1,47 +1,53 @@
 * {margin: 0;
   padding: 0;}
+  header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
   body{
     background-color: #B9D5D8;
   }
 /*------------------------------------*/
-
 /*  POLICES */
 h1 {
   font-family:"Arial", Helvetica, sans-serif;
   font-weight: bold;
+  color:black;
+  margin-left: 50px; 
 }
-a {
-  text-decoration: none;
-  color: white;
-}
-ul li:hover{
-background-color: #8C704D;}
+
 .base_text{
   font-family: "Arial", Helvetica, sans-serif;
 }
 /*------------------------------------*/
 
 /* Background*/
+
 .bcr-blue {
   background-color: #366873;
-  width: 100%;
+  width: 95%;
   height: 200px;
   border: 5px solid #2C4859;
   border-radius: 20px;
   padding-top: 20px;
   margin-top: -5px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
-.bcimage {
-  background-color: #2C4859;
-  width: 350px;
-  height: 350px;
-  margin: 50px;  
-}
+
 /*------------------------------------*/
 
-/*Direction*/
+/*Direction*/header
 .container {
   display: flex;
 }
@@ -57,98 +63,80 @@ background-color: #8C704D;}
 .wrap {
   flex-wrap: wrap;
 }
-/*-----------------------------------*/
-
 /*HEADER*/
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
 #navbar {
   width: 100%;
-  height: 55px;
   background-color: #2C4859;
   position: fixed;
-}
-#navbar ul {
-  display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
-}
-ul li {
-  font-family: "Arial", Helvetica, sans-serif;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  padding: 0.8em;
-  font-size: 20px;
-  float: right;
-  text-shadow: 0 0 10px black;
-
-}
-h1 {
-  color: #3a3a3a;
-  margin-left: 80px;
-  font-size: 30px;
-  margin-bottom: 18px;}
-p {
-  color:black;
-  margin-left: 80px;
-  font-size: 25px;
-  padding-bottom: 10px;
   }
+ul li:hover{
+  text-decoration: none;
+  background-color: #8C7041;   
+  }
+li{
+    list-style: none;
+    text-decoration: none;
+  }
+#infos{
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #path {
-  text-align: center;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 #path img {
-  width: 70%;
+  width: 80%;
 }
 /*-----------------------------------*/
 
 /*MAIN*/
 #comp {
-  width: auto;
+  width: 90%;
   margin-top: 40px;
-  background-color: #F2E3B3;
-  padding-top: 50px;
-  padding-bottom: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
+  background-color: #EEE7D0;
   border: 5px solid #366873;
   border-radius: 20px;
 }
 #logos{
   padding-top: 40px;
-  width: 150px;
-  height: 150px;
-  margin-left: 40px;
+  width: 100%;
+  justify-content: center;
 }
   
 #logos img{
-  width: 100%;
-  height: auto;
+  width: 13%;
 }
 #conteneur{
   margin-top: -5px;
-  background-color: #F2E3B3;
-  height: 300px;
-  width: auto;
-  border:5PX solid #366873;
+  background-color: #EEE7D0;
+  width: 90%;
+  border:5px solid #366873;
   border-radius: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 #profil {
-margin-top: 30px;
-margin-left: -35px;  
-}
-/*-----PORTFOLIO-----*/
-#txt_port {
-  margin-top: 40px;
-  text-align: center;
+  padding: 20px;column
 }
 #portfolio {
-  margin-bottom: 20px;
-  justify-content: center;
-  width: 100%;
+  margin-bottom: 0.5px;
   }
-/*------BAS-----*/
+.bcimage {
+  background-color: #2C4859;
+  height: 150px;
+  width: 150px;
+  flex-wrap: initial;
+  }
+  
 #bas{
   width: auto;
   height: auto;
@@ -163,9 +151,7 @@ form {
   padding: 1em;
   border: 5px solid #2C4859;
   border-radius: 1em;
-  background-color: #F2E3B3;
-}
-form div + div {
+  background-color: #EEE7D0;
   margin-top: 1em;
 }
 label {
@@ -181,13 +167,12 @@ button{
   margin-left: 5px;
 }
 #formulaire {
-  width: 610px;}
+  width: auto;}
 /*-----------------------------------*/
 
 /*CONTACT*/
 #contact{
   width: 100%;
-  height: auto;
   }
 #contact h1{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -200,4 +185,10 @@ text-decoration: none;}
   color: white;
   padding-top: 5px;
   text-align: center;
+}
+/*-------------------------------------*/
+
+/*RESPONSIVE*/
+@media screen and (min-width:320px; max-width:800px){
+
 }
