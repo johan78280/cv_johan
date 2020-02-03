@@ -11,11 +11,7 @@
     flex-direction: column;
     align-items: center;
     }
-  footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+
   body{
     background-color: #B9D5D8;
   }
@@ -38,16 +34,16 @@ h1 {
 .bcr-blue {
   background-color: #366873;
   width: 95%;
-  height: 200px;
   border: 5px solid #2C4859;
   border-radius: 20px;
-  padding-top: 20px;
+  padding-top: 80px;
   margin-top: -5px;
+  padding-bottom: 80px;
 }
 
 /*------------------------------------*/
 
-/*Direction*/header
+/*Direction*/
 .container {
   display: flex;
 }
@@ -125,21 +121,23 @@ li{
   border-radius: 20px;
 }
 #profil {
-  padding: 20px;column
+  padding: 20px;
 }
 #portfolio {
   margin-bottom: 0.5px;
+  width: 100%;
+  text-align: center;
+
   }
 .bcimage {
   background-color: #2C4859;
-  height: 150px;
-  width: 150px;
-  flex-wrap: initial;
+  height: 500px;
+  width: 100%;
+  margin: 30px;
   }
   
 #bas{
-  width: auto;
-  height: auto;
+  width: 100%;
   align-items: center;
 }
 
@@ -167,13 +165,13 @@ button{
   margin-left: 5px;
 }
 #formulaire {
-  width: auto;}
+  width: 40%;}
 /*-----------------------------------*/
 
 /*CONTACT*/
 #contact{
   width: 100%;
-  }
+justify-content: center;  }
 #contact h1{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-weight: bold;
@@ -189,6 +187,8 @@ text-decoration: none;}
 /*-------------------------------------*/
 
 /*RESPONSIVE*/
-@media screen and (min-width:320px; max-width:800px){
-
+@media screen and (max-width:1828px){
+.bcimage{
+  width: 100%;
+}
 }
