@@ -9,7 +9,7 @@ Faire un portfolio CV, avec les fonctionnalités suivantes :
 - [x] Formulaire HTML
 - [x] Un formulaire qui doit enregistrer les messages sur le serveur
 - [x] Tracer les messages enregistrés (nom, prénom, message)
-- [x] Rendre l'interface responsive
+- [ ] Rendre l'interface responsive
 - [ ] Rendre l'interface UI plus attractive
 - [ ] Incorporer un diaporama des images
 
